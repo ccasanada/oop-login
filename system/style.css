@@ -1,0 +1,101 @@
+body{
+	font-family: Georgia, 'Times New Roman', Times, Serif;
+	background-color: #1A374D;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2{
+	text-align: center;
+}
+
+.login{
+	background-color: #406682;
+	width: 400px;
+	margin: 150px auto;
+	color: black;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+form{
+	display: contents;
+	
+}
+
+input[type=text], input[type=email], input[type=password], button[type=submit], select{
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: .5px solid;
+	margin: 10px 0;
+}
+
+button[type=submit]{
+	width: 100%;	
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 4px;
+	border: none;
+	background:  #1A374D;
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+}
+small{
+	text-align: center;
+}
+
+.signup{
+	background-color: #406682;
+	width: 400px;
+	margin: 150px auto;
+	color: black;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.brand{
+	text-decoration-color: beige;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 3px;
+	
+}
+
+.main{
+	background-color: beige;
+}
+
+.navbar ul{
+	list-style: none;
+	background: #CB7841;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+}
+
+.navbar li{
+	display: inline-block;
+	
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #fff;
+	width: 100px;
+	display: block;
+	padding: 25px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial;
+	text-align: center;
+	
+}
+
+.navbar a:hover{
+	backface-visibility: #353640;
+}
